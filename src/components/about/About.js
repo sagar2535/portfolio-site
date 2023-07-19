@@ -24,10 +24,17 @@ const About = () => {
           </div>
 
           <p>
-            Aspiring full-stack web developer with a specialization in MERN
-            stack. Strategic thinker, and a team player with an eye for detail.
-            Looking forward to working in an exciting and challenging work
-            environment.
+            Welcome to my portfolio! I'm Sagar, a passionate{' '}
+            <strong>MERN stack developer</strong>. My expertise lies in crafting
+            dynamic and interactive web applications using cutting-edge
+            technologies. With a strong web development background, I specialize
+            in <strong>MongoDB, Express.js, React, & Node.js</strong>. My drive
+            stems from the belief that technology can solve real-world problems.
+            I continually strive to enhance my skills and stay abreast of the
+            latest trends in web development. Feel free to explore my projects
+            and reach out for exciting opportunities and collaborations. I'm
+            always eager to take on new challenges and push the boundaries of
+            web possibilities. Thank you for visiting, and enjoy your time here!
           </p>
           <a href='#contact' className='btn btn-primary'>
             Let's Talk
