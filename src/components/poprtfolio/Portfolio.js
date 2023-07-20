@@ -4,6 +4,7 @@ import IMG1 from '../../assets/portfolio1.png';
 import IMG2 from '../../assets/portfolio2.jpg';
 import IMG3 from '../../assets/portfolio3.png';
 import IMG4 from '../../assets/portfolio4.png';
+import IMG5 from '../../assets/portfolio5.jpg';
 
 const data = [
   {
@@ -33,6 +34,13 @@ const data = [
     title: 'Live Weather Application',
     github: 'https://github.com/sagar2535/react-weather-app',
     demo: 'https://react-dynamic-weather-app.netlify.app/',
+  },
+  {
+    id: 5,
+    image: IMG5,
+    title: 'Personal Portfolio web Application',
+    github: 'https://github.com/sagar2535/portfolio-site',
+    demo: 'https://portfolio-site-sagar.vercel.app/',
   },
 ];
 
