@@ -41,7 +41,12 @@ header {
 /*================ ME ==============*/
 
 .me {
-  background: linear-gradient(var(--color-primary), transparent);
+  background: linear-gradient(
+    45deg,
+    transparent,
+    var(--color-primary),
+    transparent
+  );
   width: 22rem;
   height: 19rem;
   position: absolute;
@@ -81,8 +86,8 @@ header {
     display: none;
   }
   .me {
-    width: 66%;
-    margin: 3rem 4.6rem 2rem;
-    height: 38%;
+    width: 67%;
+    margin: 4rem 3.6rem 2rem;
+    height: 29%;
   }
 }
