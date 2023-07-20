@@ -12,7 +12,7 @@ const data = [
     image: IMG1,
     title: 'Chat Web Application',
     github: 'http://github.com/sagar2535/chat-app',
-    demo: 'https://chat-app-sagar-kr.vercel.app/',
+    demo: 'https://chat-app-messenger-clone.vercel.app/',
   },
   {
     id: 2,
