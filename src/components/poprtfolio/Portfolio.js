@@ -1,8 +1,8 @@
 import React from 'react';
 import './portfolio.css';
-import IMG1 from '../../assets/portfolio1.png';
-import IMG2 from '../../assets/portfolio2.jpg';
-import IMG3 from '../../assets/portfolio3.png';
+import IMG1 from '../../assets/portfolio1.jpg';
+import IMG2 from '../../assets/portfolio2.png';
+import IMG3 from '../../assets/portfolio3.jpg';
 import IMG4 from '../../assets/portfolio4.png';
 import IMG5 from '../../assets/portfolio5.jpg';
 
@@ -10,23 +10,23 @@ const data = [
   {
     id: 1,
     image: IMG1,
+    title: 'Genius AI Web Application',
+    github: 'https://github.com/sagar2535/genius-ai',
+    demo: 'https://genius-ai-one.vercel.app/',
+  },
+  {
+    id: 2,
+    image: IMG2,
     title: 'Chat Web Application',
     github: 'http://github.com/sagar2535/chat-app',
     demo: 'https://chat-app-messenger-clone.vercel.app/',
   },
   {
-    id: 2,
-    image: IMG2,
+    id: 3,
+    image: IMG3,
     title: 'Food Order Web Application',
     github: 'http://github.com/sagar2535/food-order-app',
     demo: 'https://food-order-app-sagar-kumar.vercel.app/',
-  },
-  {
-    id: 3,
-    image: IMG3,
-    title: 'Natours Web Application',
-    github: 'https://github.com/sagar2535/Natous_web_app',
-    demo: 'https://www.natours.dev/',
   },
   {
     id: 4,
