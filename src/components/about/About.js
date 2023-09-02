@@ -1,5 +1,5 @@
 import './about.css';
-import ME from '../../assets/me-about-2.png';
+import ME from '../../assets/sagar-image.png';
 import { FaAward } from 'react-icons/fa';
 const About = () => {
   return (

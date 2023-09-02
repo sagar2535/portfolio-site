@@ -1,35 +1,53 @@
 import React from 'react';
 import './portfolio.css';
-import IMG1 from '../../assets/portfolio1.jpg';
-import IMG2 from '../../assets/portfolio2.png';
-import IMG3 from '../../assets/portfolio3.jpg';
-import IMG4 from '../../assets/portfolio4.png';
+import {
+  Admin,
+  ChatApp,
+  FoodApp,
+  GeniusAi,
+  LiveWeather,
+  Store,
+} from './images';
 
 const data = [
   {
     id: 1,
-    image: IMG1,
+    image: Admin,
+    title: 'Admin Panel Web Application',
+    github: 'https://github.com/sagar2535/e-commerce-admin',
+    demo: 'https://e-commerce-admin-sagar.vercel.app',
+  },
+  {
+    id: 2,
+    image: Store,
+    title: 'Genius AI Web Application',
+    github: 'https://github.com/sagar2535/e-commerce-store',
+    demo: 'https://e-commerce-store-sagar.vercel.app',
+  },
+  {
+    id: 3,
+    image: GeniusAi,
     title: 'Genius AI Web Application',
     github: 'https://github.com/sagar2535/genius-ai',
     demo: 'https://genius-ai-one.vercel.app/',
   },
   {
-    id: 2,
-    image: IMG2,
+    id: 4,
+    image: ChatApp,
     title: 'Chat Web Application',
     github: 'http://github.com/sagar2535/chat-app',
     demo: 'https://chat-app-messenger-clone.vercel.app/',
   },
   {
-    id: 3,
-    image: IMG3,
+    id: 5,
+    image: FoodApp,
     title: 'Food Order Web Application',
     github: 'http://github.com/sagar2535/food-order-app',
     demo: 'https://food-order-app-sagar-kumar.vercel.app/',
   },
   {
-    id: 4,
-    image: IMG4,
+    id: 6,
+    image: LiveWeather,
     title: 'Live Weather Application',
     github: 'https://github.com/sagar2535/react-weather-app',
     demo: 'https://react-dynamic-weather-app.netlify.app/',
