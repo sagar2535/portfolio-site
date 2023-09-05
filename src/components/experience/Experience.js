@@ -16,9 +16,9 @@ import {
   NextJs,
   Nginx,
   NodeJs,
-  Npm,
   Postman,
   ReactJs,
+  ShadcnUi,
   TailwindCss,
   TypeScript,
 } from './icons';
@@ -102,9 +102,9 @@ const Experience = () => {
               </div>
             </article>
             <article className='experience__details'>
-              <Npm className='experience__details-icon' />
+              <ShadcnUi className='experience__details-icon' />
               <div>
-                <h4>NPM</h4>
+                <h4>SHADCN UI</h4>
                 <small className='text-light'>Intermediate</small>
               </div>
             </article>
