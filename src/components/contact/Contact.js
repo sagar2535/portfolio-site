@@ -4,6 +4,22 @@ import { MdOutlineEmail } from 'react-icons/md';
 import { BsWhatsapp } from 'react-icons/bs';
 import emailjs from 'emailjs-com';
 import { toast } from 'react-hot-toast';
+
+const contactItems = [
+  {
+    id: 1,
+    icon: <MdOutlineEmail className='contact__option-icon' />,
+    label: 'Email',
+    contactInfo: 'kumarsagar91550@gmail.com',
+  },
+  {
+    id: 2,
+    icon: <BsWhatsapp className='contact__option-icon' />,
+    label: 'Whatsapp',
+    contactInfo: '9310384814',
+  },
+];
+
 const Contact = () => {
   const formRef = useRef();
   const sendSuccess = () => {
@@ -28,30 +44,20 @@ const Contact = () => {
 
       <div className='container contact__container'>
         <div className='contact__options'>
-          <article className='contact__option'>
-            <MdOutlineEmail className='contact__option-icon' />
-            <h4>Email</h4>
-            <h5>kumarsagar91550@gmail.com</h5>
-            <a
-              href='mailto:sagarkumar2535@gmail.com'
-              target='_blank'
-              rel='noreferrer'
-            >
-              Send a message
-            </a>
-          </article>
-          <article className='contact__option'>
-            <BsWhatsapp className='contact__option-icon' />
-            <h4>Whatsapp</h4>
-            <h5>9310384814</h5>
-            <a
-              href='https://api.whatsapp.com/send?phone=9310384814'
-              target='_blank'
-              rel='noreferrer'
-            >
-              Send a message
-            </a>
-          </article>
+          {contactItems.map((contact) => (
+            <article className='contact__option' key={contact.id}>
+              {contact.icon}
+              <h4>{contact.label}</h4>
+              <h5>{contact.contactInfo}</h5>
+              <a
+                href='mailto:sagarkumar2535@gmail.com'
+                target='_blank'
+                rel='noreferrer'
+              >
+                Send a message
+              </a>
+            </article>
+          ))}
         </div>
         <form ref={formRef} onSubmit={sendEmail}>
           <input
@@ -71,13 +77,9 @@ const Contact = () => {
             rows='7'
             placeholder='Your Message'
             required
-          ></textarea>
+          />
 
-          <button
-            type='submit'
-            className='btn btn-primary'
-            // onClick={sendSuccess}
-          >
+          <button type='submit' className='btn btn-primary'>
             send Message
           </button>
         </form>
