@@ -11,12 +11,14 @@ const contactItems = [
     icon: <MdOutlineEmail className='contact__option-icon' />,
     label: 'Email',
     contactInfo: 'kumarsagar91550@gmail.com',
+    href:"mailto:sagarkumar2535@gmail.com"
   },
   {
     id: 2,
     icon: <BsWhatsapp className='contact__option-icon' />,
     label: 'Whatsapp',
     contactInfo: '9310384814',
+    href:"https://wa.me/9310384814"
   },
 ];
 
@@ -50,7 +52,7 @@ const Contact = () => {
               <h4>{contact.label}</h4>
               <h5>{contact.contactInfo}</h5>
               <a
-                href='mailto:sagarkumar2535@gmail.com'
+                href={contact.href}
                 target='_blank'
                 rel='noreferrer'
               >
