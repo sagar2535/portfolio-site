@@ -1,5 +1,5 @@
 import {
-  Aws,
+  PostgresSQL,
   Css,
   Docker,
   ExpressJs,
@@ -108,9 +108,9 @@ export const backendData = [
   },
   {
     id: 7,
-    icon: <Aws className='experience__details-icon' />,
-    title: 'AWS',
-    difficulty: 'Basic',
+    icon: <PostgresSQL className='experience__details-icon' />,
+    title: 'PostgresSQL',
+    difficulty: 'Intermediate',
   },
   {
     id: 8,

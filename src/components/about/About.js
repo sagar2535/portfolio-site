@@ -19,23 +19,24 @@ const About = () => {
             <article className='about__card'>
               <FaAward className='about__icon' />
               <h5>Experience</h5>
-              <small>2.3+ Years Working</small>
+              <small>2.9+ Years Working</small>
             </article>
           </div>
 
           <p>
             Welcome to my portfolio! I'm Sagar, a passionate{' '}
-            <strong>MERN stack developer</strong>. My expertise lies in crafting
-            dynamic and interactive web applications using cutting-edge
-            technologies. With a strong web development background, I specialize
-            in <strong>MongoDB, Express.js, React, & Node.js</strong>. My drive
+            <strong>Full Stack Developer</strong>. My expertise lies in crafting
+            dynamic and interactive web and mobile applications using cutting-edge
+            technologies. With a strong development background, I specialize in{' '}
+            <strong>PostgresSQL, MongoDB, Express.js, React, React Native, & Node.js</strong>. My drive
             stems from the belief that technology can solve real-world problems.
             I continually strive to enhance my skills and stay abreast of the
-            latest trends in web development. Feel free to explore my projects
+            latest trends in web and mobile development. Feel free to explore my projects
             and reach out for exciting opportunities and collaborations. I'm
             always eager to take on new challenges and push the boundaries of
-            web possibilities. Thank you for visiting, and enjoy your time here!
+            web and mobile possibilities. Thank you for visiting, and enjoy your time here!
           </p>
+
           <a href='#contact' className='btn btn-primary'>
             Let's Talk
           </a>

@@ -5,11 +5,11 @@ import {
   BiLogoMongodb as MongoDB,
   BiLogoTypescript as TypeScript,
   BiLogoDocker as Docker,
+  BiLogoPostgresql as PostgresSQL
 } from 'react-icons/bi';
 import {
   FaReact as ReactJs,
   FaNodeJs as NodeJs,
-  FaAws as Aws,
 } from 'react-icons/fa';
 import {
   TbBrandTailwind as TailwindCss,
@@ -37,7 +37,6 @@ export {
   ExpressJs,
   Github,
   Postman,
-  Aws,
   TypeScript,
-  Docker,
+  Docker,PostgresSQL
 };
